@@ -61,14 +61,14 @@ class HomeScreen extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () => context.push('/details'),
-              child: const Text('push to the Details screen'),
+              child: const Text('push to the detail screen'),
             ),
             const SizedBox(
               height: 15,
             ),
             ElevatedButton(
               onPressed: () => context.go('/modal'),
-              child: const Text('Go to the Details screen'),
+              child: const Text('Go to the modal screen'),
             ),
           ],
         ),
